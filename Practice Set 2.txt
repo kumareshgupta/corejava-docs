@@ -1,7 +1,7 @@
 Practice Set 2
 =================
 
-1.	Write a class called CircleComputation, which prompts user for a 	radius (in double) and compute the area and circumference of the 	circle rounded to 2 decimal places. 
+1.	Write a class called CircleComputation, which prompts user for a radius (in double) and compute the area and circumference of the circle rounded to 2 decimal places. 
 	
 	The output shall look like:
 	
@@ -9,14 +9,14 @@ Practice Set 2
 	The area is: 4.52
 	The circumference is: 7.53
 
-2.	Write a class called AauMauChau which prints the numbers 1 to 110, 	11 numbers per line. The program shall print "Aau" in place of the 	numbers which are multiples of 3, "Mau" for multiples of 5, "Chau" 	for multiples of 7, "AauMau" for multiples of 3 and 5, and so on.
+2.	Write a class called AauMauChau which prints the numbers 1 to 110, 11 numbers per line. The program shall print "Aau" in place of the 	numbers which are multiples of 3, "Mau" for multiples of 5, "Chau" for multiples of 7, "AauMau" for multiples of 3 and 5, and so on.
 	
 	The output shall look like:
 	
 	1 2 Aau 4 Mau Aau Chau 8 Aau Mau 11 
 	Aau 13 Chau AauMau 16 17 Aau 19 Mau AauChau 22 
 	23	Aau Mau 26 AauChau 29 AauMau 31 32 Aau
-	…………..
+	â€¦â€¦â€¦â€¦..
 
 3.	Create a new Class Customer
 	Create 2 Class Members - custId and custName
@@ -24,15 +24,15 @@ Practice Set 2
 	Create instance of the class and invoke print method to print 	details of Customer.
 
 
-4.	Write a Java program that has two classes, Employee and 	WageCalculator. Employee has the following details about the 	employee:
+4.	Write a Java program that has two classes, Employee and WageCalculator. Employee has the following details about the 	employee:
 	Name,
 	Employee code
 	Hours worked
 	Wage per hour
 	
-	WageCalculator creates instances of the Employee class, gets the 		details of the Employee to calculate the wages and prints it to 		the standard output. Use the constructor of the Employee class to 		assign values to the different variables.
+	WageCalculator creates instances of the Employee class, gets the details of the Employee to calculate the wages and prints it to the standard output. Use the constructor of the Employee class to assign values to the different variables.
 
-5.	Write a java program that has the classes Area and User. Area has 	overloaded static methods by the name area() that can be used to 		calculate the area of a circle, triangle, rectangle and a 	cylinder. User uses the methods of Area to calculate the area of 		different geometric figures and prints it to the standard output.
+5.	Write a java program that has the classes Area and User. Area has overloaded static methods by the name area() that can be used to calculate the area of a circle, triangle, rectangle and a cylinder. User uses the methods of Area to calculate the area of different geometric figures and prints it to the standard output.
 
 6.	Create a user defined exception to check whether your employee 	exist in your data structure (use any data structure to store the employees - like array, ArrayList etc) and throw exception if name is not in the employees list.
 
