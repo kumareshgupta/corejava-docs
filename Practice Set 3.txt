@@ -1,0 +1,555 @@
+1.calculateSal
+Read the question carefully and follow the input and output format.
+
+Karen got salary for this month and she spends 20% of her salary for food and 30% of her salary for travel. If she takes care of other shifts she will get 2% of the salary per day. Given her salary and the number of shifts she handled. Calculate how much she can save in her pocket after spending all these?
+
+Input and Output Format :
+First line of input consists of an integer, salary. Next line correspond to the number of shifts. Output consist of an integer, which is saving.
+
+1) Print "Salary too large" when salary is greater than 8000.
+2) Print "Shifts too small" when the shift is less than 0.
+3) Print "Salary too small" when the salary is less than 0.
+
+Include a method named calculateSal(int salary, int shifts) whose return type is an integer, which is the saving.
+
+Sample Input 1:
+7000
+5
+Sample Output 1:
+4200
+
+Sample Input 2:
+8001
+
+Sample Output 2:
+Salary too large
+----------------------------------------------------------------------------------
+
+2.Repeated Salary Count
+ 
+John is working as a clerk in an organization where N number of people are working. His boss has asked him to get the count of employees who get same salary. Help him to get the count of repeated salary.
+ 
+Include a method named countRepeaters that accepts 2 arguments and returns an int. The first argument is the input array and the second argument is an int that corresponds to the size of the array. The method returns an int that corresponds to the number of repeaters.
+ 
+If the size of the array is negative or if any of the array elements are negative, print “Invalid Input” and terminate the program.
+ 
+Input and Output Format:
+-----------------------
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of an integer that corresponds to the number of repeaters.
+ 
+Assume that utmost one element in the array would repeat.
+Assume that the maximum number of elements in the array is 20.
+ 
+Sample Input 1:
+5
+1000
+2000
+3500
+2000
+5000
+ 
+Sample Output 1:
+2
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+1000
+-2000
+
+Sample Output 3:
+Invalid Input
+---------------------------------------------------------------------------------- 
+ 
+
+3.maximumSum
+Read the question carefully and follow the input and output format.
+
+Given an Integer array, find out sum of Even and odd Numbers individually and find the maximum.
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements. Output consist of maximum of odd and even sum.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program.
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+
+
+Include a method named maximumSum(int numbers[], int size) whose return type is an integer,.
+
+Sample Input 1:
+5
+12
+13
+14
+15
+16
+
+Sample Output 1:
+42
+
+Sample Input 2:
+-13
+
+Sample Output 2:
+Invalid array size
+Change using Minimal Coins / Notes
+----------------------------------------------------------------------------------
+ 
+4. Ram needs to pay the school fees of his 6 year old kid. As he is busy with his work, he is not finding time to go to the school to make payment. His kid's school doesn't accept online payment. So he decided to send the fee amount through his kid. The available denominations of rupees or coins is 500, 100, 50, 10, 5, 2 and 1. Can you write a program to find the minimal number of coins or notes to be given to his kid?
+ 
+Include a function named countRupees that accepts an integer and returns an integer that corresponds to the minimal number of coins/rupee notes. The function returns -1 if the input is negative.
+ 
+Input and Output Format:
+----------------------------
+Input consists of a single integer that corresponds to the fee amount to be paid.
+Output consists of an integer that corresponds to the minimal number of coins or rupee notes.
+ 
+Print Invalid Input if the input value is negative.
+ 
+ 
+Sample Input 1:
+682
+ 
+Sample Output 1:
+8
+ 
+Sample Input 2:
+-2345
+ 
+Sample Output 2:
+Invalid Input
+----------------------------------------------------------------------------------
+
+5.Product of Digits
+ 
+In a car racing video game, the car is an object. You can drive the car, turn the car, or stop the car when needed but you need to drive long. You will get money according to the Km you have travelled. For example if you have travelled 123 km then the product of the km (ie 1*2*3 = 6) would be the amount you win. Write a program to find the product of the digits in the given input number.
+ 
+Include a method named productDigits that accepts an integer argument and returns an integer that corresponds to the product of digits in the integer.
+The method returns -1 if the input number is negative or greater than 32767.
+ 
+If the method returns -1, print Invalid Input.
+ 
+Input and Output Format:
+--------------------------
+Input consists of an integer.
+Output consists of an integer.
+Refer sample output for formatting specifications.
+ 
+Sample Input 1:
+32
+  
+Sample Output 1:
+6
+ 
+Sample Input 2:
+-67
+ 
+Sample Output 2:
+Invalid Input
+ 
+
+6.findCricketerId
+Read the question carefully and follow the input and output format.
+
+Given an input array first Index indicates the cricketer’s id and second index indicates the score and so on……Find out the cricketer's id who scored more than given score
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements.The next line of the input consists of an integer that corresponds to the given score. Output consist of an integer array, which contains cricketer's id who have scored more than the given score.
+
+1) Print "Invalid array size" when size of the array is negative and terminate the program .
+2) Print "Invalid input" when there is any negative numbers available in the input array and terminate the program.
+3) Print "Invalid score" when the score is negative.
+
+Include a method named findCricketerId(int array[], int size, int score) whose return type is void.
+The output array is stored in a global variable named cricketer.
+
+Sample Input 1:
+6
+1
+1000
+5
+2000
+3
+4000
+1000
+
+Sample Output 1:
+5
+3
+
+Sample Input 2:
+6
+1
+1000
+5
+3000
+3
+4000
+-1000
+
+Sample Output 2:
+Invalid score
+
+7.Fahrenhiet to Centigrade
+ 
+Write a program to convert given temperature from Fahrenheit to Centigrade.
+ 
+Formula:
+C/5 = (F-32)/9
+C stands for Centigrade.
+F stands for Fahrenheit.
+ 
+Include a method named convertToCentigrade that accepts an integer argument and returns a float that corresponds to the centigrade equivalent.
+ 
+If the input is a negative number, print Invalid Input and terminate the program.
+ 
+Input and Output Format:
+---------------------------
+Input consists of a single integer.
+Output consists of a floating point number that corresponds to the centigrade equivalent. The output is displayed correct to 2 decimal places.
+ 
+ 
+Sample Input 1:
+77
+ 
+Sample Output 1:
+25.00
+ 
+Sample Input 2:
+-2345
+ 
+Sample Output 2:
+Invalid Input
+
+
+8.highestFeedBack
+Read the question carefully and follow the input and output format.
+
+In a company there are some managers working on two different projects (MetLife and Hardfort). When the feedback was taken their feedback was present in both MetLife Feedback as well as Hardfort Feedback. Write a method to create a consolidated feedback for the managers for MetLife and HardForts. For those working on both the projects the highest feedback is taken. In the 2 given arrays, the First Index represents the Employee id and second one Represents The Feed Back Score and so on....
+
+Input and Output Format:
+First line corresponds to n, the size of the array. The next n lines correspond to the elements of the first array. The next n lines correspond to the elements in the second array. Output corresponds to the consolidated feedback score.
+
+1) Print "Invalid array size" when size of the array is a negative number and terminate the program
+2) Print "Invalid input" when there is any negative number available in the input array and terminate the program
+
+Include a method named highestFeedBack(int metlife[],int hardfort[],int size) whose return type is void.
+The output array is stored in a global variable named fedback.
+
+Sample Input 1:
+8
+1
+90
+2
+75
+3
+92
+5
+85
+1
+80
+2
+85
+3
+80
+4
+85
+Sample Output 1:
+1
+90
+2
+85
+3
+92
+5
+85
+4
+85
+
+Sample Input 2:
+5
+5
+8
+9
+1
+-6
+Sample Output 2:
+Invalid number
+
+Sample Input 3:
+-4
+
+
+9.primeIndexSum
+Read the question carefully and follow the input and output format.
+
+Given an Integer array. Find the average of the numbers located on the Prime Indexes of the Array. Consider 0 index as 1 and 1 index is 2 and so on……
+
+Hint :Consider 1 is not a prime number
+
+Input and Output Format :
+First line of input consists of n, the number of elements. Next n lines correspond to the array elements . Output consists of an Integer, the prime index sum.
+
+1) Print "Invalid array size" when size of the array is a negative number.
+2) Print "Invalid input" when there is any negative numbers available in the input array.
+
+Include a method named primeIndexSum(int array[], int size) whose return type is an integer,which is the sum.
+
+Sample Input 1:
+7
+2
+4
+5
+1
+9
+3
+8
+
+Sample Output 1:
+6
+
+Sample Input 2:
+-7
+
+Sample Output 2:
+Invalid array size
+
+10.Element Count
+ 
+Write a program to find the number of times a particular number occurs in a given input array.
+ 
+Include a method named findElementCount that accepts 3 arguments and returns an int. The first argument is the input array, the second argument is an int that corresponds to the size of the array and the third argument is the element to be searched for. The method returns an int that corresponds to the number of times the search element occurs in the array.
+ 
+If the size of the array is negative or if any element in the array is negative, print “Invalid Input” and terminate the program.
+ 
+Input and Output Format:
+Input consists of n+2 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array. The last integer corresponds to the element whose count needs to be found.
+Output consists of an integer that corresponds to the number of times the search element occurs in the array.
+Assume that the maximum number of elements in the array is 20.
+ 
+ 
+Sample Input 1:
+8
+2
+1
+3
+8
+6
+8
+10
+8
+8
+ 
+Sample Output 1:
+3
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+23
+2
+-200
+ 
+Sample Output 3:
+Invalid Input
+ 
+
+
+
+11.powerOfTwo
+Read the question carefully and follow the input and output format.
+
+Check whether given number is a power of 2 or not .If yes Print 'Yes' else 'No'
+
+Input and Output Format :
+Input consists of an integer number. And output is a single line that displays 'Yes' or 'No'
+
+Print "Number too small" if the number is less than 0
+Print "Number too large" if the number is greater than 32767
+
+Include a method named powerOfTwo(int n) that returns an integer.
+
+
+Sample Input 1:
+3
+Sample Output 1:
+No
+
+Sample Input 2:
+34569
+Sample Output 2:
+Number too large
+
+.generateNewNumber
+ 
+Read the question carefully and follow the input and output format.
+
+Write a program to generate new number from the given input based on following conditions.
+
+(i) Even digit should be replaced by next Even digit.
+(ii) Odd digit should be replaced with next Odd digit
+
+Input and Output Format :
+Input consists of an integer. Output is also an integer.
+
+1) Print "Number too small" when any of given input numbers is a negative number.
+2) Print "Number too large" when any of given input numbers is greater than 32767.
+
+
+Sample Input 1:
+123
+
+Sample Output 1:
+345
+
+Sample Input 2:
+32768
+
+Sample Output 2:
+Number too large
+----------------------------------------------------------------------------------
+
+12.Odd Even Average
+ 
+The Owner of a block visited the Layout and found that he has some plot numbers of his own and some are odd numbers and some are even numbers. He is maintaining the details in a file in the system. For the password protection our owner has followed one formula. He calculated the sum of his even numbers plot and sum of odd numbers plot and found the average of those two and he used that average as his password for the details file. Find the password that our owner has arrived.
+ 
+Include a function named avgOddEvenSum that accepts 2 arguments and returns a float. The first argument is the input array and the second argument is an int that corresponds to the size of the array. The function returns a float that corresponds to the average of the array.
+ 
+If the size of the array is negative or if any element in the array is negative , print “Invalid Input” and terminate the program.
+ 
+Input and Output Format:
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of a floating point number that corresponds to the average. It is displayed correct to 2 decimal places.
+Assume that the maximum size of the array is 20. 
+Sample Input 1:
+5
+1
+2
+3
+4
+5
+ 
+Sample Output 1:
+7.50
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+23
+2
+-5
+ 
+Sample Output 3:
+Invalid Input
+----------------------------------------------------------------------------------
+
+13.Largest Array
+ 
+Write a program which takes two arrays of the same size as a input and compares the first element of first array with the first element of second array and stores the largest of these into the first element of the output array. Repeat the process till the last element of the first array is checked with the last element of the second array.
+ 
+Include a function named largestArray that accepts 3 arguments and its return type is void. The first argument is input array 1, the second argument is  input array 2 and the third argument is an int that corresponds to the size of the array. The output array is stored in a global variable named output1.
+ 
+If the size of the array is negative or if any element in the array is negative, print “Invalid Input” and terminate the program.
+ 
+Input and Output Format:
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of the largest array.
+Assume that the maximum number of elements in the array is 20.
+ 
+Sample Input 1:
+4
+2
+1
+3
+4
+1
+9
+2
+8
+ 
+Sample Output 1:
+2
+9
+3
+8
+ 
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+23
+2
+-200
+ 
+Sample Output 3:
+Invalid Input
+----------------------------------------------------------------------------------
+
+14. Array Sorting
+ 
+Write a program to sort the first half of the input array elements in ascending order and the second half of the input array elements in descending order.
+ 
+Include a function named ascDescArray that accepts 2 arguments and its return type is void. The first argument is the input array and the second argument is an int that corresponds to the size of the array.
+ 
+If the size of the array is negative or if any element in the array is negative , print “Invalid Input” and terminate the program.
+ 
+Input and Output Format:
+Input consists of n+1 integers. The first integer corresponds to n, the number of elements in the array. The next 'n' integers correspond to the elements in the array.
+Output consists of n integers that correspond to the elements in the sorted array.
+Assume that the maximum size of the array is 20.
+ 
+Sample Input 1:
+7
+1
+9
+8
+4
+6
+4
+5
+ 
+Sample Output 1:
+1
+4
+8
+9
+6
+5
+4
+ 
+ 
+Sample Input 2:
+-5
+ 
+Sample Output 2:
+Invalid Input
+ 
+Sample Input 3:
+5
+23
+2
+-5
+ 
+Sample Output 3:
+Invalid Input

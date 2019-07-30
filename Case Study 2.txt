@@ -1,0 +1,26 @@
+Big Bazzar is one the largest suppliers of consumer goods.  Big Bazzar wants to develop a Java application which could accept the orders placed by their customers and perform various operations on orders.  Implement the above scenario as per following guidelines.
+
+Design a class called Order which has the following private instance variables. 
+  orderId			int  
+  customerName		String 
+  orderAmount			float
+  paymentOption	 	String
+
+-	Define parameterized constructor to initialize all the above attributes
+-	Perform the below validations and throw an user defined exception InvalidOrderException if any of the validations fail.
+o	orderAmount should not be less than 100
+o	paymentOption can be either “CoD” or “Gift Card” or “Internet Banking”
+
+Design a class called OrderServiceUtil with the below methods.										            	  
+•	To add an order for customer in TreeMap.
+o	public void addOrder (Order o1) 
+
+•	To search and return an Order object
+o	public Order searchOrder (String orderId ) 
+
+•	To compute and return the total amount of all the Order instance
+o	public float findTotal() 
+
+Store the above classes in the package com.store
+
+Write a class TestClient in the package com.store.test with the main method to test the methods in the OrderServiceUtil class.

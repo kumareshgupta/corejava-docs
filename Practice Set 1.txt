@@ -1,0 +1,30 @@
+Practice Set 1
+===============
+
+1. 	Calculate the sum of numbers from 1 to 100.
+
+2.	Find out Factorial of 5.
+
+3.	Find the cubes of numbers between 1 and 10.
+
+4.      Print
+	* 
+	* *
+	* * *
+	* * * *
+
+5.	Print from current alphabet to ending alphabet.
+
+6.	Print the Fibbonachi Series 
+	a. First ten terms
+	b. Odd numbers between 10 to 100	
+	d. Sum of numbers less than 100
+
+7.	Write a program to input a number and find the sum of its digits.
+
+8.	Write a program to convert 96F into its equivalent centigrade temperature.
+      
+9.	Find whether the given number is Armstrong number or not.
+
+10.	write a program to accept a number from the command line and check if it is 	a prime number. 
+
