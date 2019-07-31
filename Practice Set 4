@@ -1,0 +1,37 @@
+1. Encapsulation & Inheritance based
+-------------------------------------- 
+Note : Book and EngineeringBook classes will be in manipal.library package. BookDetails class will be in manipal.library.driver package.
+
+a)	Create a class Book which has following members:
+	private int bookNo
+private String title
+private String author
+private float price
+
+	Provide getter and setter methods for all the instance variables.
+Create a class BookDetails which has the main method. Create an object of the Book class.  Initialize the object by reading inputs for the fields from the user and display all the details of book.
+
+b)	Extend the Book class to create a class EngineeringBook derived from Book with an additional attribute
+		private String category 	
+Provide setter and getter methods for type instance variable.
+Create an object of the EngineeringBook class in BookDetails’s main method  and test.
+
+2. Inheritance and Abstraction based
+-------------------------------------
+Create abstract class PrepaidCard as per the below details
+•	Has attributes CardNo(int), availableBalance(double), swipeLimit(double)
+•	Abstract method swipeCard which takes amount as input and returns a boolean. 
+•	Override toString to get object details in a formatted way
+•	Concrete method rechargeCard which takes amount as input and adds it to availableBalance 
+
+Create TravelCard as per below details
+•	subclass of PrepaidCard
+•	Has attribute rewardPoints. 
+•	Travel Card implements the Rewardable interface for calculating reward points. 
+•	Interface Rewardable has a method which takes amount as input and returns reward points
+The swiped amount should not be more than the swipeLimit or the available balance for Travel Card.
+Travel Cards are used in USA(1$ = Rs 60). 
+When TravelCard is swiped, the swiped amount in dollars is converted in to INR and deducted from the available balance.  Processing charge of 5% of amount is charged for every swipe and is reduced from the balance.
+
+ 5 Reward points are given for every 100 INR swiped and added to the instance variable rewardPoints.
+Create a TestCard class. Create objects of TravelCard. Use the travel card by swiping and display the Card details.
