@@ -2,19 +2,19 @@
 -------------------------------------- 
 Note : Book and EngineeringBook classes will be in manipal.library package. BookDetails class will be in manipal.library.driver package.
 
-a)	Create a class Book which has following members:
+a) Create a class Book which has following members:
 	private int bookNo
-private String title
-private String author
-private float price
+	private String title
+	private String author
+	private float price
 
 	Provide getter and setter methods for all the instance variables.
-Create a class BookDetails which has the main method. Create an object of the Book class.  Initialize the object by reading inputs for the fields from the user and display all the details of book.
+	Create a class BookDetails which has the main method. Create an object of the Book class.  Initialize the object by reading inputs for the fields from the user and display all the details of book.
 
-b)	Extend the Book class to create a class EngineeringBook derived from Book with an additional attribute
+b) Extend the Book class to create a class EngineeringBook derived from Book with an additional attribute
 		private String category 	
-Provide setter and getter methods for type instance variable.
-Create an object of the EngineeringBook class in BookDetails’s main method  and test.
+	Provide setter and getter methods for type instance variable.
+	Create an object of the EngineeringBook class in BookDetails’s main method  and test.
 
 2. Inheritance and Abstraction based
 -------------------------------------
